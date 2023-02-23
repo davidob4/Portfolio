@@ -1,0 +1,86 @@
+.contact-page{
+    .text-zone{
+        position: absolute;
+        left: 15%;
+        top: 13%;
+        width: 35%;
+        vertical-align: middle;
+        font-size: 26px;
+    }
+
+    .contact-form{
+        width: 100%;
+        margin-top: 20px;
+
+        ul{
+            padding: 0;
+            margin: 0;
+
+            li{
+                padding: 0;
+                margin: 0;
+                list-style: none;
+                margin-bottom: 10px;
+                opacity: 0;
+                overflow: hidden;
+                display: block;
+                clear: both;
+                position: relative;
+                animation: fadeInUp 0.3s 0.15s;
+                animation-fill-mode: forwards;
+            }
+
+            li.half {
+                margin-left: 1%;
+                float: left;
+                clear: none;
+          
+                &:first-child {
+                  margin-left: 0;
+                  
+                }
+            }
+        }
+    }
+}
+
+input, textarea{
+    position: relative;
+    font-family: 'Coolvetica';
+    font-size: 16px;
+    height: 50px;
+    border: 0;
+    background: rgb(185, 224, 148);
+    padding: 0 20px;
+}
+
+input[name='email']{
+    width: 433px;
+    height: 50px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+input[name='send']{
+    cursor: pointer;
+}
+
+textarea{
+    height: 200px;
+    width: 80%;
+    box-sizing: border-box;
+    min-height: 150px;
+    padding: 20px;
+    resize: none;
+    min-width: 350px;
+}
+
+.top-form{
+    top: 110px;
+    left: -20px;
+}
+
+.bottom-form{
+    left: -20px;
+}
+

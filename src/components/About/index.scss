@@ -1,0 +1,28 @@
+.about-page{
+    .text-zone{
+        position: absolute;
+        left: 15%;
+        top: 13%;
+        width: 35%;
+        vertical-align: middle;
+
+        h1{
+            font-size: 45px;
+        }
+
+        p{
+            font-size: 20px;
+        }
+
+        .top-tag{
+            position: relative;
+            left: -30px;
+            top: 10px;
+        }
+
+        .bottom-tag{
+            position: relative;
+            left: -30px;
+        }
+    }
+}

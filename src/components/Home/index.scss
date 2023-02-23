@@ -1,0 +1,58 @@
+.home-page{
+    .text-zone{
+        position: absolute;
+        left: 20%;
+        top: 30%;
+        transform: translateY(-50%);
+        font-size: 30px;
+    }
+
+    h1{
+        font-family: 'Coolvetica';
+
+        &::before{
+            content: '<h1>';
+            font-family: 'La Belle Aurore';
+            color: black;
+            font-size: 18px;
+            position: absolute;
+            margin-top: -20px;
+            margin-left: -40px;
+            opacity: 0.6;
+        }
+
+        &::after{
+            content: '</h1>';
+            font-family: 'La Belle Aurore';
+            color: black;
+            font-size: 18px;
+            position: absolute;
+            opacity: 0.6;
+            margin-top: 85px;
+            
+        }
+    }
+
+    h2{
+        position: relative;
+        top: 10px;
+        font-size: 17px;
+        opacity: 80%;
+    }
+
+    .Dev{
+        position: relative;
+        font-size: 25px;
+        font-weight: 700;
+        top: -10px;
+    }
+
+    img{
+        position: relative;
+        left: 50%;
+        top: 12%;
+        width: 350px;
+        height: auto;
+        animation: rotateIn 1s linear both;
+    }
+}

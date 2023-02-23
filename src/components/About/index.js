@@ -29,7 +29,6 @@ const About = () => {
                 <span className='tags top-tag'>&lt;p&gt;</span>
                 <p>
                     When I am not coding, I enjoy playing the violin and playing football with friends.
-
                 </p>
                 <span className='tags bottom-tag'>&lt;/p&gt;</span>   
             </div>

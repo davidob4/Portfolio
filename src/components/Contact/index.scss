@@ -1,16 +1,17 @@
 .contact-page{
+    align-items: center;
     .text-zone{
-        position: absolute;
-        left: 15%;
-        top: 13%;
-        width: 35%;
-        vertical-align: middle;
-        font-size: 26px;
+        position: relative;
+        left: 39%;
+        top: 5%;
+        width: 25%;
+        align-items: center;
+        font-size: 25px;
     }
 
     .contact-form{
         width: 100%;
-        margin-top: 20px;
+        //margin-top: 2%;
 
         ul{
             padding: 0;
@@ -20,7 +21,7 @@
                 padding: 0;
                 margin: 0;
                 list-style: none;
-                margin-bottom: 10px;
+                margin-bottom: 12px;
                 opacity: 0;
                 overflow: hidden;
                 display: block;
@@ -30,44 +31,29 @@
                 animation-fill-mode: forwards;
             }
 
-            li.half {
-                margin-left: 1%;
-                float: left;
-                clear: none;
-          
-                &:first-child {
-                  margin-left: 0;
-                  
-                }
-            }
+            
         }
     }
 }
 
 input, textarea{
-    position: relative;
     font-family: 'Coolvetica';
     font-size: 16px;
     height: 50px;
     border: 0;
-    background: rgb(185, 224, 148);
+    background: var(--contact_color);
     padding: 0 20px;
-}
-
-input[name='email']{
-    width: 433px;
-    height: 50px;
-    padding: 0 20px;
-    box-sizing: border-box;
+    transition: 0.3s;
 }
 
 input[name='send']{
     cursor: pointer;
+    float: right;
 }
 
 textarea{
     height: 200px;
-    width: 80%;
+    width: 100%;
     box-sizing: border-box;
     min-height: 150px;
     padding: 20px;
@@ -76,11 +62,12 @@ textarea{
 }
 
 .top-form{
-    top: 110px;
-    left: -20px;
+    position: relative;
+    bottom: 1vh;
 }
 
 .bottom-form{
-    left: -20px;
+    position: relative;
+    float: right;
 }
 

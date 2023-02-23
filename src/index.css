@@ -1,3 +1,15 @@
+:root {
+  --body_background: #b6e9d4;
+  --body_color: #444;
+  --contact_color: rgb(185, 224, 148);
+}
+
+[data-theme="dark"]{
+  --body_background:#466659;
+  --body_color: #d8d3d3;
+  --contact_color: rgb(116, 143, 91);
+}
+
 html {
   font-size: 62.5%;
 }
@@ -5,10 +17,11 @@ html {
 body {
   margin: 0;
   font: 300 11px/1.4 'Helvetica Neue', sans-serif;
-  color: #444;
-  background: #b6e9d4;
+  color: var(--body_color);
+  background: var(--body_background);
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: 0.3s;
 }

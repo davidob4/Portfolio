@@ -31,17 +31,14 @@ const Contact = () => {
                         Contact me
                     </h1>
                     <div className='contact-form'>
-                        <span className='tags top-form'>&lt;form&gt;</span>
                         <form ref={refForm} onSubmit={sendEmail}>
+                        <span className='tags top-form'>&lt;form&gt;</span>
                             <ul>
-                                <li className='half'>
+                                <li className='halfs'>
                                     <input type='text' name='name' placeholder='Name' required></input>
                                 </li>
-                                <li  className='half'>
-                                    <input type='text' name='subject' placeholder='Subject' required></input>
-                                </li>
-                                <li>
-                                    <input type='email' name='email' placeholder='Email' required></input>
+                                <li className='halfs'>
+                                    <input type='email' name='email' placeholder='Your Email' required></input>
                                 </li>
                                 <li>
                                     <textarea placeholder='Message' name='message' required />
@@ -50,8 +47,8 @@ const Contact = () => {
                                     <input type='submit' className='button' name='send' value='SEND'></input>
                                 </li>
                             </ul>
+                            <span className='tags bottom-form'>&lt;/form&gt;</span>
                         </form>
-                        <span className='tags bottom-form'>&lt;/form&gt;</span>
                     </div>
                 </div>
             </div>

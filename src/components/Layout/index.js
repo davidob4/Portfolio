@@ -19,10 +19,12 @@ const Layout = () => {
     return (
         <div className='App' id='light'>
 
+
             <label class="switch-dark">
-                <input type="checkbox" onChange={toggleTheme}/>
+                <input type="checkbox" className='check-box' onChange={toggleTheme}/>
                 <span class="slider"></span>
             </label>
+            
             
             <Navbar />
 

@@ -40,12 +40,15 @@
     transform-style: preserve-3d;
     animation: fadeIn 0.2s forwards;
     animation-delay: 0s;
-    overflow-y: scroll;
 }
 
 .container.contact-page,
 .container.about-page {
     font-family: 'Coolvetica';
+}
+
+.check-box{
+    display: none;
 }
 
 .switch-dark {
@@ -55,6 +58,7 @@
     left: 5px;
     width: 50px;
     height: 100px;
+    //display: none;
 }
 
 .slider {

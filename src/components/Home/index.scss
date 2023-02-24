@@ -1,7 +1,7 @@
 .home-page{
     .text-zone{
         position: absolute;
-        left: 18%;
+        left: 30%;
         top: 10%;
         font-size: 30px;
     }
@@ -45,13 +45,15 @@
         font-weight: 700;
         top: -10px;
     }
-
+    
     img{
-        position: relative;
-        left: 50%;
+        position: absolute;
+        width: 250px;
+        cursor: pointer;
+        opacity: 0;
+        animation: fadeInUp 0.5s 0.25s;
+        animation-fill-mode: forwards;
+        left: 130%;
         top: 12%;
-        width: 350px;
-        height: auto;
-        animation: rotateIn 1s linear both;
     }
 }

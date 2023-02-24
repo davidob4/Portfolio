@@ -1,17 +1,15 @@
 .contact-page{
+    display: flex;
+    justify-content: center;
     align-items: center;
     .text-zone{
         position: relative;
-        left: 39%;
-        top: 5%;
         width: 25%;
-        align-items: center;
         font-size: 25px;
     }
 
     .contact-form{
         width: 100%;
-        //margin-top: 2%;
 
         ul{
             padding: 0;

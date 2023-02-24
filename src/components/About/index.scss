@@ -1,10 +1,14 @@
 .about-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     .text-zone{
         position: relative;
-        left: 20%;
-        top: 3%;
+        //left: 20%;
+        //top: 3%;
         width: 35%;
-        vertical-align: middle;
+        //vertical-align: middle;
 
         h1{
             font-size: 3vw;

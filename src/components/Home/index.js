@@ -27,13 +27,9 @@ const Home = () => {
 
                 <h className='Dev'>Developer</h>
 
-                <img src={CV} onClick={DownloadCV} />
                 
             </div>
-            
-            
-            
-            
+            <img src={CV} onClick={DownloadCV} />
         </div>
     )
 }

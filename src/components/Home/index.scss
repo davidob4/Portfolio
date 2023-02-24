@@ -1,8 +1,9 @@
 .home-page{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    top: -8%;
     .text-zone{
-        position: absolute;
-        left: 30%;
-        top: 10%;
         font-size: 30px;
     }
 
@@ -47,13 +48,12 @@
     }
     
     img{
-        position: absolute;
+        position: relative;
         width: 250px;
         cursor: pointer;
         opacity: 0;
         animation: fadeInUp 0.5s 0.25s;
         animation-fill-mode: forwards;
-        left: 130%;
-        top: 12%;
+        left: 55px;
     }
 }

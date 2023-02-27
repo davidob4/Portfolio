@@ -1,5 +1,4 @@
 import Loader from 'react-loaders'
-import Animated from '../Animated'
 import './index.scss'
 import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
@@ -32,7 +31,6 @@ const Contact = () => {
                     </h1>
                     <div className='contact-form'>
                         <form ref={refForm} onSubmit={sendEmail}>
-                        <span className='tags top-form'>&lt;form&gt;</span>
                             <ul>
                                 <li className='halfs'>
                                     <input type='text' name='name' placeholder='Name' required></input>
@@ -47,7 +45,6 @@ const Contact = () => {
                                     <input type='submit' className='button' name='send' value='SEND'></input>
                                 </li>
                             </ul>
-                            <span className='tags bottom-form'>&lt;/form&gt;</span>
                         </form>
                     </div>
                 </div>

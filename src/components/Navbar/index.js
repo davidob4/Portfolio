@@ -5,9 +5,6 @@ import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Navbar = () => (
-
-
-
     <div className='nav-bar'>
         <nav>
             <NavLink exact='true' activeclassname='active' className='links' to='/'>

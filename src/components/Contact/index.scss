@@ -2,10 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+
     .text-zone{
         position: relative;
-        width: 25%;
-        font-size: 25px;
+        width: 30%;
+        font-size: 2.5vmin;
     }
 
     .contact-form{
@@ -36,8 +38,8 @@
 
 input, textarea{
     font-family: 'Coolvetica';
-    font-size: 16px;
-    height: 50px;
+    font-size: 2vmin;
+    height: 6vmin;
     border: 0;
     background: var(--contact_color);
     padding: 0 20px;
@@ -50,22 +52,11 @@ input[name='send']{
 }
 
 textarea{
-    height: 200px;
+    height: 28vmin;
     width: 100%;
     box-sizing: border-box;
     min-height: 150px;
     padding: 20px;
     resize: none;
-    min-width: 350px;
-}
-
-.top-form{
-    position: relative;
-    bottom: 1vh;
-}
-
-.bottom-form{
-    position: relative;
-    float: right;
 }
 

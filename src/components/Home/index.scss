@@ -4,68 +4,37 @@
     align-items: center;
     
     .text-zone{
-        position: relative;
-        font-size: 30px;
+        font-size: 3.5vmin;
         top: -8%;
-    }
-
-    h1{
-        font-family: 'Coolvetica';
-
-        &::before{
-            content: '<h1>';
-            font-family: 'La Belle Aurore';
-            color: black;
-            font-size: 18px;
-            position: absolute;
-            margin-top: -20px;
-            margin-left: -40px;
-            opacity: 0.6;
-        }
-
-        &::after{
-            content: '</h1>';
-            font-family: 'La Belle Aurore';
-            color: black;
-            font-size: 18px;
-            position: absolute;
-            opacity: 0.6;
-            margin-top: 85px;
-            
-        }
-    }
-
-    h2{
-        position: relative;
-        top: 10px;
-        font-size: 17px;
-        opacity: 80%;
-    }
-
-    .Dev{
-        position: relative;
-        font-size: 25px;
-        font-weight: 700;
-        top: -10px;
-    }
-    
-    img{
-        position: relative;
-        width: 250px;
-        cursor: pointer;
-        opacity: 0;
-        animation: fadeInUp 0.5s 0.25s;
-        animation-fill-mode: forwards;
-        left: 55px;
-        top: -8%;
-    }
-
-    @media(max-width: 992px) {
-        display: grid;
         
+    }
+
+    .cv-name{
+        display: flex;
+        opacity: 0;
+        animation: fadeInUp 0.2s 0.3s;
+        animation-fill-mode: forwards;
+    }
+
+    img{
+        align-self: center;
+        width: 25vmin;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+
+    @media(max-width: 650px){
+        .cv-name{
+            flex-direction: column;
+        }
+
         img{
-            left: 0;
-            top: -15%;
+            margin-left: 0;
+            width: 35vmin;
+        }
+
+        .text-zone{
+            font-size: 4vmin;
         }
     }
 }

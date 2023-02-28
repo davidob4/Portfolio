@@ -17,7 +17,13 @@ const Home = () => {
             <div className='cv-name'>
                 <div className="text-zone">
                     <h1>Hi, <br />I'm David</h1>
-                    <h6>React / NodeJS<br />C#<br />Java</h6>
+
+                    <div className='words'>
+                        <span className='first'>React / NodeJS</span>
+                        <span>C#</span>
+                        <span>Java</span>
+                    </div>
+
                 </div>
                 
                 <img src={CV} onClick={OpenCV}/>

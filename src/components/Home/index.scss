@@ -6,7 +6,6 @@
     .text-zone{
         font-size: 3.5vmin;
         top: -8%;
-        
     }
 
     .cv-name{
@@ -15,6 +14,52 @@
         animation: fadeInUp 0.2s 0.3s;
         animation-fill-mode: forwards;
     }
+
+    .words{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        height: 4.21vmin;
+        position: absolute;
+        bottom: 0;
+        font-size: 3.5vmin;
+    }
+
+    .first{
+        margin-top: 4.3vmin;
+    }
+
+    .words span{
+        animation: spin 6s infinite;
+    }
+
+    @keyframes spin{
+        10%{
+            transform: translateY(-105%);
+        }
+        25%{
+            transform: translateY(-100%);
+        }
+        35%{
+            transform: translateY(-205%);
+        }
+        50%{
+            transform: translateY(-200%);
+        }
+        60%{
+            transform: translateY(-305%);
+        }
+        75%{
+            transform: translateY(-300%);
+        }
+        85%{
+            transform: translateY(-405%);
+        }
+        100%{
+            transform: translateY(-400%);
+        }
+    }
+
 
     img{
         align-self: center;
@@ -35,6 +80,10 @@
 
         .text-zone{
             font-size: 4vmin;
+        }
+
+        .words{
+            top: 33.3vmin;
         }
     }
 }

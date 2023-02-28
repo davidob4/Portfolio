@@ -19,6 +19,7 @@
                 li{
                     margin-bottom: 12px;
                     overflow: hidden;
+                    opacity: 0;
                     animation: fadeInUp 0.3s 0.15s;
                     animation-fill-mode: forwards;
                 }
@@ -27,7 +28,7 @@
             }
         }
     }
-    
+
     @media(max-width: 600px){
         .text-zone{
             width: 55%;

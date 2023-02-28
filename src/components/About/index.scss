@@ -18,4 +18,32 @@
             animation-fill-mode: forwards;
         }
     }
+
+    @media(max-width:1000px){
+        .text-zone{
+            width: 60%;
+
+            h1{
+                font-size: 4vw;
+            }
+    
+            p{
+                font-size: 2.7vmin;
+            }
+        }
+    }
+
+    @media(max-width:700px){
+        .text-zone{
+            width: 60%;
+
+            h1{
+                font-size: 4vw;
+            }
+    
+            p{
+                font-size: 3.4vmin;
+            }
+        }
+    }
 }

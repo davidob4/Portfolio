@@ -63,9 +63,10 @@
 
     img{
         align-self: center;
-        width: 25vmin;
+        width: 14vmin;
         cursor: pointer;
-        margin-left: 20px;
+        margin-left: 50px;
+        margin-bottom: 30px;
     }
 
     @media(max-width: 650px){
@@ -74,8 +75,9 @@
         }
 
         img{
+            margin-top: 30px;
             margin-left: 0;
-            width: 35vmin;
+            width: 25vmin;
         }
 
         .text-zone{

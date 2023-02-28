@@ -8,30 +8,29 @@
         position: relative;
         width: 30%;
         font-size: 2.5vmin;
-    }
 
-    .contact-form{
-        width: 100%;
-
-        ul{
-            padding: 0;
-            margin: 0;
-
-            li{
+        .contact-form{
+            width: 100%;
+    
+            ul{
                 padding: 0;
                 margin: 0;
-                list-style: none;
-                margin-bottom: 12px;
-                opacity: 0;
-                overflow: hidden;
-                display: block;
-                clear: both;
-                position: relative;
-                animation: fadeInUp 0.3s 0.15s;
-                animation-fill-mode: forwards;
+    
+                li{
+                    margin-bottom: 12px;
+                    overflow: hidden;
+                    animation: fadeInUp 0.3s 0.15s;
+                    animation-fill-mode: forwards;
+                }
+    
+                
             }
-
-            
+        }
+    }
+    
+    @media(max-width: 600px){
+        .text-zone{
+            width: 55%;
         }
     }
 }
@@ -59,4 +58,6 @@ textarea{
     padding: 20px;
     resize: none;
 }
+
+
 

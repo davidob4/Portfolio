@@ -12,12 +12,12 @@ const About = () => {
                 </h1>
                 <p>
                     I'm a determined and ambitious software developer looking for a role in an established IT company, 
-                    with the opportunity to work with the latest technologies on challenging and diverse projects
+                    with the opportunity to work with the latest technologies on challenging and diverse projects.
                 </p>
                 <p>
-                    I have excellent experience working with HTML, CSS, React, NodeJS, C#, and Java.
-                    I have many projects completed using C#, and applications using React and NodeJS 
-                    which you can find on my github.
+                    I am a proficient fullstack developer and have
+                    excellent experience working with HTML, CSS, React, NodeJS, C#, and Java.
+                    My projects are on my github, which can be found at the bottom left in the navigation bar.
                 </p>
                 <p>
                     When I am not coding, I enjoy playing the violin and playing football with friends.

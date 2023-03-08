@@ -41,7 +41,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #23ce48;
+    background-color: #445ef1;
     border-radius: 50px;
     -webkit-transition: .4s;
     transition: .4s;
@@ -54,20 +54,24 @@
     height: 30px;
     width: 30px;
     left: 10px;
-    top: 6px;
-    background-color: white;
+    top: 10px;
+    background-color:#ffde00;
+    box-shadow: 0 0 0 3px #ffde0080, 0 0 0 5px #ffde0040, 0 0 0 7px #ffde0020, 0 0 0 9px #ffde0010, 0 0 0 11px #ffde0000, 0 0 4px 11px #ffde0010;
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 50px;
 }
 
 input:checked + .slider{
-    background-color: #044414;
+    background-color: #092250;
 }
   
 input:checked + .slider:before {
-    transform: translateY(57px);
-    background-color: rgb(39, 38, 38);
+    transform: translateY(45px);
+    background: none;
+    left: 3px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 0 0 #fff77e;
 }
 
 h1, form, p{

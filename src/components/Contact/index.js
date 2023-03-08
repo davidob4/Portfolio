@@ -1,7 +1,9 @@
 import Loader from 'react-loaders'
 import './index.scss'
 import { useRef, useState } from 'react'
+import { ToastContainer, toast } from 'react-toastify'
 import emailjs from '@emailjs/browser'
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
     const refForm = useRef();
@@ -14,16 +16,22 @@ const Contact = () => {
         refForm.current, 
         'raJje6FLC_tABR1wx'
         ).then(() => {
-            alert('Message has been sent!')
-            window.location.reload(false)
+            toast.success('Message has been sent!', {
+                position: toast.POSITION.TOP_CENTER
+
+            });
+            document.getElementById('contact-form').innerHTML = "";
         },
         () => {
-            alert('Failed to send')
+            toast.error('Failed to send', {
+                position: toast.POSITION.TOP_CENTER
+            });
         })
     }
 
     return (
         <>
+            <ToastContainer />
             <div className='container contact-page'>
                 <div className='text-zone'>
                     <h1>

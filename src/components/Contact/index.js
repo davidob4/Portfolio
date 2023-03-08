@@ -17,10 +17,9 @@ const Contact = () => {
         'raJje6FLC_tABR1wx'
         ).then(() => {
             toast.success('Message has been sent!', {
-                position: toast.POSITION.TOP_CENTER
-
+                position: toast.POSITION.TOP_CENTER,
+                onClose: () => window.location.reload(false)
             });
-            document.getElementById('contact-form').innerHTML = "";
         },
         () => {
             toast.error('Failed to send', {
@@ -31,7 +30,7 @@ const Contact = () => {
 
     return (
         <>
-            <ToastContainer />
+            <ToastContainer autoClose={4000}/>
             <div className='container contact-page'>
                 <div className='text-zone'>
                     <h1>

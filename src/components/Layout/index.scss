@@ -76,16 +76,7 @@ input:checked + .slider:before {
 
 h1, form, p{
     font-family: 'Coolvetica';
-
-    &::before{
-        font-family: 'La Belle Aurore';
-        color: black;
-        font-size: 1.7vmin;
-        display: flex;
-        opacity: 0.5;
-        font-weight: normal;
-    }
-    &::after{
+    &::before, &::after{
         font-family: 'La Belle Aurore';
         color: black;
         font-size: 1.7vmin;

@@ -14,6 +14,7 @@
             ul{
                 padding: 0;
                 margin: 0;
+                margin-top: 5px;
     
                 li{
                     margin-bottom: 12px;
@@ -37,7 +38,7 @@
 
 input, textarea{
     font-family: 'Coolvetica';
-    font-size: 2vmin;
+    font-size: 1.7vmin;
     height: 6vmin;
     border: 0;
     background: var(--contact_color);
@@ -54,10 +55,6 @@ textarea{
     height: 28vmin;
     width: 100%;
     box-sizing: border-box;
-    min-height: 150px;
     padding: 20px;
     resize: none;
 }
-
-
-

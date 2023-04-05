@@ -72,6 +72,13 @@
             }
         }
 
+        a.projects-link{
+            &:after{
+                content: 'PROJECTS';
+                font-size: 8px;
+            }
+        }
+
         a.active{
             svg{
                 color: whitesmoke;
